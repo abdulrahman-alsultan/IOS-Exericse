@@ -22,6 +22,9 @@ class ArticleCell: UITableViewCell {
             articleImage.loadImage(from: url)
             
         }
+        else{
+            imageView?.isHidden = true
+        }
         
     }
     

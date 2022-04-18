@@ -11,6 +11,9 @@ import UIKit
 class LazyImageView: UIImageView{
     
     func loadImage(from url: URL){
+        
+        self.image = UIImage(systemName: "icloud.and.arrow.down")
+        
                 
         DispatchQueue.global().async {
             [weak self] in

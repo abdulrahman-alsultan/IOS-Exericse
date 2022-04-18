@@ -23,9 +23,12 @@ class DetailsViewController: UIViewController {
         
         titleLbl.text = titleTxt
         describeLbl.text = describe
-        if imageURL != "", let url = URL(string: imageURL)  {
+        if !imageURL.isEmpty , let url = URL(string: imageURL)  {
             imageView.loadImage(from: url)
-            
+            imageView.isHidden = false
+        }
+        else{
+            imageView.isHidden = true
         }
 
     }

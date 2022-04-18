@@ -43,8 +43,8 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icloud.and.arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jnc-ul-9Ln" customClass="LazyImageView" customModule="ios_exercise" customModuleProvider="target">
-                                                            <rect key="frame" x="269" y="40" width="97" height="88"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jnc-ul-9Ln" customClass="LazyImageView" customModule="ios_exercise" customModuleProvider="target">
+                                                            <rect key="frame" x="269" y="40" width="97" height="87"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="87" id="Agq-oZ-MTB"/>
                                                                 <constraint firstAttribute="width" constant="97" id="zyt-6z-cCi"/>
@@ -114,8 +114,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icloud.and.arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FPD-PO-06r" customClass="LazyImageView" customModule="ios_exercise" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="140" width="414" height="201"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FPD-PO-06r" customClass="LazyImageView" customModule="ios_exercise" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="140" width="414" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="SNM-oh-uKc"/>
                                 </constraints>
@@ -179,7 +179,6 @@
     </scenes>
     <resources>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
-        <image name="icloud.and.arrow.down" catalog="system" width="128" height="112"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
