@@ -20,7 +20,7 @@ class ArticleCell: UITableViewCell {
 
         if !img.isEmpty, let url = URL(string: img)  {
             articleImage.loadImage(from: url)
-            
+            imageView?.isHidden = false
         }
         else{
             imageView?.isHidden = true
